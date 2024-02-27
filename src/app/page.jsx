@@ -69,11 +69,9 @@ function inp(e,x){
 
   return (
     <main className="w-[100%] h-[100vh] bg1">
-     <section className='w-[100%] h-[20vh] flex justify-center items-end'>
-      <p className='text-[4rem] uppercase font-bold font-sans'>reza ojaghi</p>
-     </section>
+   
 
-     <section className='w-[100%] h-[60vh] flex justify-center items-center'>
+     <section className='w-[100%] h-[80vh] flex justify-center items-center'>
       <div className='w-[360px] h-[360px] relative overflow-hidden bx rounded-xl border-2 border-black'>
       <div  ref={p2} style={{display:'none'}} className='w-[360px] h-[360px] absolute flex flex-wrap bg-[rgba(255,255,255,.3)]'>
         <div className='w-[33.333%] h-[33.333%] border-2 border-black'></div>
@@ -90,7 +88,7 @@ function inp(e,x){
         {row1&&row1.map((val,i)=>{
           return(
             <>
-            <input key={i} type="text" maxLength='1' data-status={val} onChange={()=>inp(event,i)} className='bg-[rgba(255,255,255,0)] forced-colors:bg-[rgba(255,255,255,0)] w-[39.6px] h-[39.6px] text-center border border-black flex justify-center items-center text-[1.5rem] font-bold font-sans' />
+            <input key={i} type="text" maxLength='1' data-status={val} onChange={()=>inp(event,i)} className='bg-[rgba(255,255,255,0)] forced-colors:bg-[rgba(255,255,255,0)] w-[40px] h-[40px] text-center border border-black flex justify-center items-center text-[1.5rem] font-bold font-sans' />
             </>
           )
         })}
