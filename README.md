@@ -1,7 +1,7 @@
 # game-sudoku
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-![Screenshot (61)](https://github.com/REZA-OJAGHI-DRO/game-snake/assets/145910720/49d9bbf4-6b48-4975-a997-0bba10dadabe)
+![Screenshot (67)](https://github.com/REZA-OJAGHI-DRO/game-sudoku/assets/145910720/d3ce15e5-50a4-4106-8ee9-ed6c96f7dbc8)
 
 - [Demo Project(VPN)](https://game-sudoku-6fdo.vercel.app/)
  
