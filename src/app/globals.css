@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg1{
+  background-image: linear-gradient(rgb(199,23,83),rgb(225,120,19));
+}
+.bx{
+  box-shadow: 0px 0px 10px 4px black;
+
+}
