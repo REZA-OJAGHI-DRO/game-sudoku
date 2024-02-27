@@ -60,11 +60,15 @@ setTimeout(()=>{
   }
 
 function inp(e,x){
+  if(e.target.value.search(/[a-z]/)&&e.target.value.search(/[ا-ی]/)){
   if(box.current.children[x].getAttribute('data-status')==e.target.value){
     box.current.children[x].style.color='green'
   }else{
     box.current.children[x].style.color='red'
   }
+}else{
+  box.current.children[x].value=''
+}
 }
 
   return (
